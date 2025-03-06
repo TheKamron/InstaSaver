@@ -47,7 +47,7 @@ bot.onText(/\/start/, async (msg) => {
       // Foydalanuvchiga Salom yo'llash
       bot.sendMessage(
         chatId,
-        `Assalomu Alaykum ${firstName}. MediaGo Botiga Xush Kelibsiz! Menga Instagramdan olingan havolani yuboring va men Sizga Videoni yuklab beraman!`
+        `Assalomu Alaykum ${firstName}. InstaSaver Botiga Xush Kelibsiz! Menga Instagramdan olingan havolani yuboring va men Sizga Videoni yuklab beraman!`
       );
 
       // Adminga yangi foydalanuvchi haqida xabar yuborish
