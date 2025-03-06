@@ -16,6 +16,8 @@ const PORT = 5500 | process.env.PORT
 app.listen(PORT, () => {
   console.log("Server is running...")
 })
+
+
 // Botning start komandasi
 bot.onText(/\/start/, async (msg) => {
   const chatId = msg.chat.id;

@@ -3,9 +3,9 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const mediaDownloader = async (URL, bot, chatId) => {
-  if (!URL) {
-    bot.sendMessage(chatId, "Xato: URL manzil noto‘g‘ri!");
-    return;
+  // URL 
+  if (!URL || !URL.startsWith("http")) {
+    return; 
   }
 
   bot.sendMessage(chatId, "Yuklanmoqda...");
