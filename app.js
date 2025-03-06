@@ -40,7 +40,7 @@ bot.onText(/\/start/, async (msg) => {
       // Foydalanuvchi allaqachon mavjud bo'lsa
       bot.sendMessage(
         chatId,
-        `Assalomu Alaykum ${firstName}! Menga Instagramdan havolani yuboring va men Sizga Videoni yuklab beraman!`
+        `Assalomu Alaykum! Menga Instagram yoki Facebookdan havolani yuboring va men Sizga Videoni yuklab beraman!`
       );
     } else {
       // Foydalanuvchini bazaga saqlash
@@ -49,7 +49,7 @@ bot.onText(/\/start/, async (msg) => {
       // Foydalanuvchiga Salom yo'llash
       bot.sendMessage(
         chatId,
-        `Assalomu Alaykum ${firstName}. InstaSaver Botiga Xush Kelibsiz! Menga Instagramdan olingan havolani yuboring va men Sizga Videoni yuklab beraman!`
+        `Assalomu Alaykum! InstaSaver Botiga Xush Kelibsiz! Menga Instagram yoki Facebookdan olingan havolani yuboring va men Sizga Videoni yuklab beraman!`
       );
 
       // Adminga yangi foydalanuvchi haqida xabar yuborish
